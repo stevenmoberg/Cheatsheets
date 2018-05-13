@@ -89,6 +89,9 @@ The ***id*** attribute uniquely identifies an element and used for CSS styling a
 The ***name*** attribute on a form element identifies the value posted to the server
 > `<input id="name" ` **name**`="name" type="text" value="Steve Moberg" />`
 
+The class attribute can contain multiple class names seperated by a space
+> `<button class="`**btn btn-block btn-primary** `">Click Me</button>`
+
 All non-closing html elements can be nested
 > `<`**div** ` class="row">`<br/>
 > &emsp;`<`**div** ` class="col-xs-4">`<br/>
